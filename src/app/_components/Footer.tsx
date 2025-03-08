@@ -7,13 +7,12 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           {/* Brand and Description */}
-          <div className="md:col-span-1">
+          <div className="md:col-span-1 flex flex-col items-center md:items-start  mb-10 md:mb-0">
             <Link href="/" className="flex items-center">
               <span className="text-xl font-bold text-[#1A1D1F]">FreshHarvest</span>
             </Link>
           
-      
-            <div className="mt-6 flex space-x-4">
+            <div className="mt-6 flex justify-center md:justify-start space-x-4">
               <Link href="#" className="text-[#6F767E] hover:text-[#2A85FF]">
                 <Image src="/fb.png" alt="Facebook" width={24} height={24} />
               </Link>
@@ -28,10 +27,9 @@ export default function Footer() {
               </Link>
             </div>
           </div>
-
           {/* Support Links */}
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-3 whitespace-nowrap justify-end ml-auto">
-          <div className="ml-16">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-3 whitespace-nowrap md:justify-end md:ml-auto">
+          <div className="text-center md:text-left md:ml-16">
             <h3 className="text-sm font-semibold text-[#1A1D1F]">Support</h3>
             <ul className="mt-4 space-y-4">
               <li>
@@ -53,7 +51,7 @@ export default function Footer() {
           </div>
 
           {/* Company Links */}
-          <div className="ml-4">
+          <div className="text-center md:text-left md:ml-4">
             <h3 className="text-sm font-semibold text-[#1A1D1F]">Company</h3>
             <ul className="mt-4 space-y-4">
               <li>
@@ -75,7 +73,7 @@ export default function Footer() {
           </div>
 
           {/* Legal Links */}
-          <div className="">
+          <div className="text-center md:text-left">
             <h3 className="text-sm font-semibold text-[#1A1D1F]">Legal</h3>
             <ul className="mt-4 space-y-4">
               <li>

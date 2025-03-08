@@ -38,8 +38,8 @@ export default function Header() {
             </Link>
             <Link
               href="/about"
-              className="text-[15px] text-[#1A1D1F] hover:text-[#2A85FF]"
-            >
+              className={`text-[15px] ${isScrolled ? 'text-[#1A1D1F] hover:text-[#2A85FF]' : 'text-white hover:text-gray-200'}`}            
+              >
               About us
             </Link> 
             <Link

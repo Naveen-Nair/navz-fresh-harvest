@@ -1,29 +1,96 @@
-# Create T3 App
+# FreshHarvest - Modern E-commerce Platform
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+FreshHarvest is a modern, full-stack e-commerce platform designed to connect local farmers with conscious consumers, making fresh, sustainable produce accessible to everyone.
 
-## What's next? How do I make an app with this?
+## 🌟 Features
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+### 🛍️ Shopping Experience
+- **Dynamic Product Catalog**: Browse through a wide range of fresh produce and organic food
+- **Product Details**: Detailed product information with high-quality images
+- **Related Products**: Smart product recommendations
+- **Shopping Cart**: Easy-to-use cart functionality
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+### 👤 User Authentication
+- **Secure Login/Signup**: Modern authentication system
+- **Password Recovery**: Forgot password functionality
+- **User Profiles**: Personalized user experience
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+### 📱 Responsive Design
+- **Mobile-First Approach**: Fully responsive across all devices
+- **Modern UI/UX**: Clean and intuitive interface
+- **Smooth Animations**: Enhanced user experience with subtle animations
 
-## Learn More
+### 📝 Content Management
+- **Blog System**: Engaging articles about healthy eating and sustainability
+- **About Page**: Company information and mission statement
+- **Contact Form**: Easy communication channel for customers
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+## 🛠️ Tech Stack
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+### Frontend
+- **Next.js 13**: React framework with App Router
+- **TypeScript**: Type-safe development
+- **Tailwind CSS**: Utility-first CSS framework
+- **React**: UI component library
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+### Development Tools
+- **ESLint**: Code linting
+- **Prettier**: Code formatting
+- **PostCSS**: CSS processing
 
-## How do I deploy this?
+## 🚀 Getting Started
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+### Prerequisites
+- Node.js 16.8 or later
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/Naveen-Nair/navz-fresh-harvest.git
+cd naveen-harvest-fresh
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Set up environment variables
+```bash
+cp .env.example .env
+```
+Fill in your environment variables in the .env file
+
+4. Start the development server
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+## 📁 Project Structure
+
+```
+├── src/
+│   ├── app/              # Next.js 13 app directory
+│   │   ├── _components/  # Shared components
+│   │   ├── _data/       # Static data
+│   │   ├── api/         # API routes
+│   │   └── [...]/       # Page components
+│   ├── server/          # Server-side code
+│   ├── styles/          # Global styles
+│   └── trpc/           # tRPC setup
+├── prisma/             # Database schema
+├── public/             # Static assets
+└── [...config files]   # Configuration files
+```
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+

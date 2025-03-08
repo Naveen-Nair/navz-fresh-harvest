@@ -9,7 +9,7 @@ export default function ForgotPasswordPage() {
         <div className="mx-auto max-w-md">
           <h2 className="mt-52 mb-12 text-[32px] font-bold text-[#1A1D1F]">Forgot Password</h2>
           <p className="mb-8 text-[15px] text-[#6F767E]">
-            Enter your email address and we'll send you instructions to reset your password.
+            {"Enter your email address and we'll send you instructions to reset your password."}
           </p>
           <form className="space-y-6">
             <div className="relative">

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function NotFound() {
@@ -26,7 +25,7 @@ export default function NotFound() {
         </div>
         <h1 className="text-4xl font-bold text-[#1A1D1F] md:text-5xl">Page Not Found</h1>
         <p className="text-lg text-[#6F767E] max-w-md mx-auto">
-          The page you're looking for doesn't exist or has been moved.
+          {"The page you're looking for doesn't exist or has been moved."}
         </p>
         <Link
           href="/shop"

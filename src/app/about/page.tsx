@@ -13,13 +13,13 @@ export default function AboutPage() {
           <div className="flex-1 space-y-8">
             <h1 className="text-4xl font-bold text-[#1A1D1F] md:text-5xl">About</h1>
             <p className="text-lg text-[#6F767E]">
-              At FreshHarvest, we're passionate about delivering the freshest, highest-quality produce right to your doorstep. Our journey began with a simple mission: to connect local farmers with conscious consumers, making fresh, sustainable produce accessible to everyone.
+              {"At FreshHarvest, we're passionate about delivering the freshest, highest-quality produce right to your doorstep. Our journey began with a simple mission: to connect local farmers with conscious consumers, making fresh, sustainable produce accessible to everyone."}
             </p>
             <p className="text-lg text-[#6F767E]">
               We work directly with a network of trusted local farmers who share our commitment to sustainable agriculture and exceptional quality. Every fruit and vegetable in our selection is carefully chosen to ensure you receive only the best nature has to offer.
             </p>
             <p className="text-lg text-[#6F767E]">
-              Our dedicated team ensures that your produce is handled with care from farm to doorstep, maintaining its freshness and nutritional value. We're not just delivering groceries; we're delivering a promise of quality, sustainability, and convenience.
+              {"Our dedicated team ensures that your produce is handled with care from farm to doorstep, maintaining its freshness and nutritional value. We're not just delivering groceries; we're delivering a promise of quality, sustainability, and convenience."}
             </p>
                     {/* Contact Form Section */}
         <div className=" max-w-2xl py-16">

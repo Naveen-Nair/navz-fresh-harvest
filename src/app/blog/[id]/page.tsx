@@ -1,13 +1,25 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
-import { notFound } from 'next/navigation';
+import { notFound } from "next/navigation";
 import ShopHeader from "../../_components/Header";
 import Footer from "../../_components/Footer";
-import { blogPosts, BlogPost } from "../../_data/blog";
+import { blogPosts } from "../../_data/blog";
 
-export default function BlogPostPage({ params }: { params: { id: string } }) {
-  const post = blogPosts.find((p) => p.id === params.id);
-  const relatedPosts = blogPosts.filter((p) => p.id !== params.id).slice(0, 3);
+type Params = { id: string };
+
+type Props = {
+  params: Promise<Params>;
+};
+
+export default async function BlogPostPage({ params }: Props) {
+  const { id } = await params;
+  if (!id) {
+    return notFound();
+  }
+  const post = blogPosts.find((p) => p.id === id);
+  const relatedPosts = blogPosts.filter((p) => p.id !== id).slice(0, 3);
 
   if (!post) {
     return notFound();

@@ -64,7 +64,7 @@ export default function LoginPage() {
      
 
           <div className="mt-6 text-left font-['Poppins'] text-[18px] leading-[24px] tracking-[0.1px] text-[#6F767E]">
-            Don't have an account?{" "}
+            {"Don't have an account?"}{" "}
             <Link href="/signup" className="text-[rgba(0,98,255,1)] hover:text-[#2478E8] hover:underline">
               Sign Up
             </Link>

@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "../_components/ShopHeader";
 import Footer from "../_components/Footer";
-import { products } from "../_data/products";
 
 export default function ShopPage() {
   return (

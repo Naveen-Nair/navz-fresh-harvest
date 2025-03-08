@@ -40,7 +40,7 @@ export default function HomePage() {
    <div className="py-16 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="mb-8 text-3xl font-bold text-[#1A1D1F]">Discover Freshness in Every Bite</h2>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {relatedProducts.map((relatedProduct:any) => (
+            {relatedProducts.map((relatedProduct) => (
               <Link key={relatedProduct.id} href={`/shop/${relatedProduct.id}`} className="group">
                 <div className="relative h-80 w-full overflow-hidden rounded-2xl">
                   <Image

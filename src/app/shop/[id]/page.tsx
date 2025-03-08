@@ -5,9 +5,20 @@ import Footer from "../../_components/Footer";
 import { products, Product } from "../../_data/products";
 import { notFound } from 'next/navigation';
 
-export default function ProductPage({ params }: { params: { id: string } }) {
-  const product = products.find((p) => p.id === params.id) || products[0];
-  const relatedProducts = products.filter((p) => p.id !== params.id);
+type Params = { id: string };
+
+type Props = {
+  params: Promise<Params>;
+};
+
+
+export default async function ProductPage({ params }: Props ) {
+    const { id } = await params;
+    if (!id) {
+      return notFound();
+    }
+  const product = products.find((p) => p.id === id);
+  const relatedProducts = products.filter((p) => p.id !== id);
 
   if (!product) {
     return notFound();

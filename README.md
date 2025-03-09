@@ -2,8 +2,8 @@
 
 FreshHarvest is a modern, full-stack e-commerce platform designed to connect local farmers with conscious consumers, making fresh, sustainable produce accessible to everyone.
 
-Demo link: https://drive.google.com/file/d/1n9RBPRcMsJ_tricNfHlYK2iHzp0lBFS0/view?usp=sharing
-Hosted link: https://navz-fresh-harvest.vercel.app
+- Demo link: https://drive.google.com/file/d/1n9RBPRcMsJ_tricNfHlYK2iHzp0lBFS0/view?usp=sharing
+- Hosted link: https://navz-fresh-harvest.vercel.app
 
 ## 🌟 Features
 
